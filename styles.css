@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+    width:375px;
+    background: #F5F5F5;
+}
+
+/* typography */
+
+.postname {
+font-weight: 700;
+font-size: 13px;
+margin-bottom: -10px;
+}
+
+.location {
+text-align: center;
+font-weight: 400;
+font-size: 12px;
+}
+
+/* layout */
+
+main, header {
+    background: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo {
+    width:127px;
+    height: 33.02;
+}
+
+.avatar, #post-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.post-container {
+    margin-left: 7px;
+}
+
+
+/* buttons */

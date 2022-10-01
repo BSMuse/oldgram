@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oldgram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Oldgram logo">
+        <img class="avatar" src="images/user-avatar.png" alt="picture of avatar">
+    </header>       
+    <main>
+        <div class="container">
+            <img id="post-avatar" src="images/avatar-vangogh.jpg" alt="avatar of user who posted">
+            <div class="post-container">
+                <p class="postname">Vincent van Gogh</p>
+                <p class="location">Zudert, Netherlands</p>
+            </div>
+        </div>
+        <img class="post" src="images/post-vangogh.jpg" alt="users post">
+        <div class="feed-container">
+            <button class="feed-btn" id="like-btn"><img src="images/icon-heart.png" alt="heart-shaped like button"></button>
+            <button class="feed-btn" id="comment-btn"><img src="images/icon-comment.png" alt="comment bubble shaped comment button"></button>
+            <button class="feed-btn" id="dm-btn"><img src="images/icon-dm.png" alt="paper air plane shaped DM button"></button>
+            <div class="likes"><span id="num-likes">21,492</span>likes</div>
+            <div class="comments"><span id="cmt-user">vincey1853</span><p id="comment">just took a few mushrooms lol</p></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
