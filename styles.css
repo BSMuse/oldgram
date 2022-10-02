@@ -2,22 +2,32 @@ body {
     margin: 0 auto;
     width:375px;
     background: #F5F5F5;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* typography */
 
-.postname {
+#name {
 font-weight: 700;
-font-size: 13px;
 margin-bottom: -10px;
 }
 
-.location {
+#location {
 text-align: center;
 font-weight: 400;
 font-size: 12px;
 }
 
+.likes, #username {
+    font-weight: 700;
+
+}
+
+.comments {
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
 /* layout */
 
 main, header {
@@ -36,7 +46,7 @@ header {
     height: 33.02;
 }
 
-.avatar, #post-avatar{
+.user-avatar, #avatar{
     width: 34px;
     height: 34px;
     border-radius: 100px;
@@ -52,5 +62,51 @@ header {
     margin-left: 7px;
 }
 
+.post {
+    height: 375px;
+}
+
+.feed-container {
+    margin-left: 10px;
+}
 
 /* buttons */
+
+.feed-btn {
+    width: 23.3px; 
+    height: 22.13px;
+    margin: 21px 10px 11.87px 0px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #fff;
+}
+
+.feed-btn:hover {
+    opacity: 50%;
+}
+
+#like-btn {
+    background-image: url(/images/icon-heart.png);
+} 
+
+#like-btn:focus, #like-btn:hover {
+    background-image: url(/images/icon-heart-red.png);
+}
+
+#comment-btn {
+    background-image: url(/images/icon-comment.png);
+} 
+
+#comment-btn:focus, #comment-btn:hover {
+    background-image: url(/images/icon-comment-green.png);
+}
+
+#dm-btn {
+    background-image: url(/images/icon-dm.png);
+} 
+
+#dm-btn:focus, #dm-btn:hover {
+    background-image: url(/images/icon-dm-blue.png);
+}
+

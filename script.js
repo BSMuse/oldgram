@@ -27,3 +27,23 @@ const posts = [
         likes: 152
     }
 ]
+const mainEl = document.querySelector("main")
+const likesEl = document.getElementById("num-likes")
+
+for (let i = 0; i < posts.length; i++) {
+    mainEl.innerHTML += `<div class="container">
+    <img id="avatar" src=${posts[i].avatar} alt="avatar of user who posted">
+    <div class="post-container">
+        <p id="name">${posts[i].name}</p>
+        <p id="location">${posts[i].location}</p>
+    </div>
+</div>
+<img class="post" src=${posts[i].post} alt="users post">
+<div class="feed-container">
+    <button class="feed-btn" id="like-btn"></button>
+    <button class="feed-btn" id="comment-btn"></button>
+    <button class="feed-btn" id="dm-btn"></button>
+    <div class="likes"><span id="num-likes">${posts[i].likes}</span> likes</div>
+    <div class="comments"><p id="comment"></p><span id="username">${posts[i].username}</span> ${posts[i].comment}</p></div>
+</div>`
+}
