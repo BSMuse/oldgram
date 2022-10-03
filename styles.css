@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     width:375px;
-    background: #F5F5F5;
+    background: #EDEDED;
     font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,23 +33,37 @@ font-size: 12px;
 main, header {
     background: #fff;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 67px;
     border-bottom: 1px solid #C6C6C6;
+} 
+
+#content {
+    border-bottom: 25px solid #EDEDED;
 }
 
 .logo {
     width:127px;
     height: 33.02;
+    margin-left: 10px;
 }
 
 .user-avatar, #avatar{
     width: 34px;
     height: 34px;
     border-radius: 100px;
+}
+
+.user-avatar {
+    margin-right: 16px;
+}
+
+#avatar {
+    margin-left: 10px;
 }
 
 .container {
@@ -59,23 +73,27 @@ header {
 }
 
 .post-container {
-    margin-left: 7px;
+    margin-left: 10px;
 }
 
 .post {
     height: 375px;
+    width:375px;
 }
 
 .feed-container {
     margin-left: 10px;
 }
 
+.likes { 
+    margin-top: -5px;
+}
 /* buttons */
 
 .feed-btn {
-    width: 23.3px; 
-    height: 22.13px;
-    margin: 21px 10px 11.87px 0px;
+    width: 24.3px; 
+    height: 23.13px;
+    margin: 16px 10px 11.87px 0px;
     background-size:contain;
     background-repeat: no-repeat;
     border: none;
@@ -83,7 +101,7 @@ header {
 }
 
 .feed-btn:hover {
-    opacity: 50%;
+    opacity: 150%;
 }
 
 #like-btn {
