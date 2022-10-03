@@ -28,6 +28,7 @@ font-size: 12px;
     margin-top: 12px;
     padding-bottom: 5px;
 }
+
 /* layout */
 
 main, header {
@@ -88,6 +89,7 @@ header {
 .likes { 
     margin-top: -5px;
 }
+
 /* buttons */
 
 .feed-btn {
