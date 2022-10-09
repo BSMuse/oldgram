@@ -106,11 +106,11 @@ header {
     opacity: 150%;
 }
 
-#like-btn {
+.like-btn {
     background-image: url(/images/icon-heart.png);
 } 
 
-#like-btn:focus, #like-btn:hover {
+.liked:focus, .like-btn:hover {
     background-image: url(/images/icon-heart-red.png);
 }
 
